@@ -5,7 +5,6 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Hello</title>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/webjars/bootstrap/5.0.0-beta2/css/bootstrap.min.css">
 </head>
 <body>
 <h2>

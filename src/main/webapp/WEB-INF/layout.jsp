@@ -5,10 +5,17 @@
 <html>
 <head>
     <title><tiles:getAsString name="title"/></title>
+    <link rel="stylesheet"
+          href="${pageContext.request.contextPath}/webjars/bootstrap/5.0.0-beta2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/main.css">
 </head>
 <body>
 <tiles:insertAttribute name="header"/>
-<tiles:insertAttribute name="body"/>
-<tiles:insertAttribute name="footer"/>
+<div id="page-container" class="mt-4">
+    <div class="container" id="content-wrap">
+        <tiles:insertAttribute name="body"/>
+    </div>
+    <tiles:insertAttribute name="footer"/>
+</div>
 </body>
 </html>

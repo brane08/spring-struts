@@ -9,6 +9,11 @@
         <put-attribute name="footer" value="/WEB-INF/common/footer.jsp"/>
     </definition>
     <definition name="helloTile" extends="defaultLayout">
+        <put-attribute name="title" value="Hello Page"/>
         <put-attribute name="body" value="/WEB-INF/hello.jsp"/>
+    </definition>
+    <definition name="featuredBooks" extends="defaultLayout">
+        <put-attribute name="title" value="Featured Books"/>
+        <put-attribute name="body" value="/WEB-INF/books/featured.jsp"/>
     </definition>
 </tiles-definitions>
